@@ -1,2 +1,40 @@
 
 /* Your CSS Code here. */
+ul{
+	display: flex;
+	justify-content: space-evenly;
+	background-color: black;
+	padding: 20px;
+}
+ul>li{
+	list-style-type: none;
+	font-size: 20px;
+}
+ul>li>a{
+	text-decoration: none;
+	color: white;
+}
+ul>li>a:hover{
+	text-decoration: underline;
+}
+body{
+	background-color: lightcyan;
+}
+main{
+	margin-top: 50px;
+}
+h1{
+	text-align: center;
+}
+video{
+	width: 500px;
+	padding: 10px;
+}
+.vdos{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 2px;
+	
+}
